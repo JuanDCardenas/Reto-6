@@ -1,3 +1,4 @@
+# A= ab+2π(r**2)   P=2a+2b+2πr
 import math
 pi=math.pi
 def area (radio_circulos:float,lado_a:float,lado_b:float) -> float:
