@@ -9,11 +9,11 @@ Este reto contiene las actividades propuestas para el reto#6.
   El primer punto del reto plantea que: Dada la siguiente imagen realizar:
   [![img1.png](https://i.postimg.cc/KjK42S6m/img1.png)](https://postimg.cc/tnj93fRc)
   
-  * Una función matemática para calcular el volumen y el área superficial.
+* Una función matemática para calcular el volumen y el área superficial.
 ```python
 #Función matemática: V= (4/3)π(r**3)+(1/3)π(r**2)h    S=4π(r**2)+ πr(r**2+h**2)**0.5+π(r**2)
 ```
-  * Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
+* Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
  
 ```python
 def volumen (radio_esfera:float,radio_cono:float,altura_cono:float) -> float :
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print(f"La superficie de la figura segun las medidas dadas es de {superficie_total}")
     print(f"El volumen de la figura segun las medidas dadas es de volumen_total {volumen_total}")
 ```
-   * Revise como utilizar el valor de pi usando import math y math.pi
+* Revise como utilizar el valor de pi usando import math y math.pi
 Se importara la libreria math para posteriormente inicializar una variable con valor de la funcion math.pi == 3.1416...
 ```python
 import math
