@@ -679,7 +679,7 @@ Para la amyoria de las funciones que se realizaron para este punto se usa una mi
                 n5=a
   ```
 
-Estas instrucciones permiten organizar los datos de menos a mayor.
+Estas instrucciones permiten organizar los datos segun cual es mayor y cual menor.
 Por cuestiones de optimizar el contenido del README, a esta linea de instrucciones se le denotara como <organizar> de aqui en adelante.
 
 * El promedio
