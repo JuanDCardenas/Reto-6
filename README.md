@@ -55,15 +55,15 @@ El segundo punto del reto plantea que: Dada la figura de la imagen realice:
   ```
 * Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
   ```python
-  def area (radio_circulos:float,lado_a:float,lado_b:float) -> float:
+    def area (radio_circulos:float,lado_a:float,lado_b:float) -> float:
     area_rectangulo:float=lado_a*lado_b
     area_circulos:float=2*pi*(radio_circulos**2)
     return area_circulos+area_rectangulo
-def perimetro (radio_circulos:float,lado_a:float,lado_b:float) -> float:
+  def perimetro (radio_circulos:float,lado_a:float,lado_b:float) -> float:
     perimetro_rectangulo:float=2*lado_a+2*lado_b
     perimetro_circulo:float=2*pi*radio_circulos
     return perimetro_circulo+perimetro_rectangulo
-if __name__== "__main__":
+  if __name__== "__main__":
     radio_circulos=float(input("Escribe un radio para los circulos: "))
     lado_a=float(input("Escribe un lado a para el rectangulo: "))
     lado_b=float(input("Escribe un lado b para el rectangulo: "))
@@ -73,6 +73,7 @@ if __name__== "__main__":
     print(f"El perimetro de la figura con las medidas dadas es de {perimetro_total}")
   ```
 * Revise como utilizar el valor de pi usando import math y math.pi
-  ```python
- sdfdfas
-  ```
+Este punto ya fue explicado al realizar *reto_6.1*
+
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.1*
+
