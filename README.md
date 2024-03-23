@@ -5,7 +5,7 @@ Por: Juan Diego Cárdenas Olarte
 [![logo.jpg](https://i.postimg.cc/pdcVKPsT/logo.jpg)](https://postimg.cc/JyJWLCVV)
 
 Este reto contiene las actividades propuestas para el reto#6.
-### 1. Superficie y Volumen
+>### 1. Superficie y Volumen
 El primer punto del reto plantea que: Dada la siguiente imagen realizar:
   [![img1.png](https://i.postimg.cc/KjK42S6m/img1.png)](https://postimg.cc/tnj93fRc)
   
@@ -45,7 +45,7 @@ pi=math.pi
 
 *Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.1*
 
-### 2. Area y Perimetro
+>### 2. Area y Perimetro
 El segundo punto del reto plantea que: Dada la figura de la imagen realice:
   [![img2.png](https://i.postimg.cc/0yFPrHhW/img2.png)](https://postimg.cc/pmfg6kWz)
 
@@ -75,5 +75,66 @@ El segundo punto del reto plantea que: Dada la figura de la imagen realice:
 * Revise como utilizar el valor de pi usando import math y math.pi
 Este punto ya fue explicado al realizar *reto_6.1*
 
-*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.1*
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.2*
 
+>### 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
+  ```python
+def carnes (gallinas:float,gallos:float,pollitos:float) ->float:
+    return gallinas*6+gallos*7+pollitos
+if __name__ == "__main__":
+    gallinas=float(input("Escribe cuantas gallinas se pesaran: "))
+    gallos=float(input("Escribe cuantos gallos se pesaran: "))
+    pollitos=float(input("Escribe cuantos pollitos se pesaran: "))
+    kilos=carnes(gallinas,gallos,pollitos)
+    print(f"En total se tienen {kilos} de carne")
+  ```
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.3*
+
+>### 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
+
+  ```python
+def compras (pan:float,leche:float,huevos:float,billete:float)->float:
+    return (pan*300+leche*3300+huevos*350)-billete
+if __name__ == "__main__":
+    pan=float(input("Escribe cuantos panes se compran: "))
+    leche=float(input("Escribe cuantas bolsas de leche se compran: "))
+    huevos=float(input("Escribe cuantos huevos se compran: "))
+    billete=float(input("Escribe con cuanto se pagara: "))
+    vuelto=compras(pan,leche,huevos,billete)
+    if vuelto==0:
+        print("No hay vueltos")
+    elif vuelto>0:
+        print(f"Se deben {vuelto} pesos")
+    else :
+        print(f"El vuelto es de {-(vuelto)} pesos")
+  ```
+
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.4*
+
+>### 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
+
+  ```python
+def prestamo (capital_inicial:float,interes:float,tiempo:float)->float:
+    return capital_inicial*(1+(interes/100))**tiempo
+if __name__ == "__main__":
+  capital_inicial=float(input("Escriba el capital inicial del prestamo: "))
+  interes=float(input("Escriba el porcentaje de interes mensual del prestamo: "))
+  tiempo=float(input("Escriba en cuantos meses se pagara el prestamo: "))
+  valor_final=prestamo(capital_inicial,interes,tiempo)
+  print(f"Con un prestamo inicial de {capital_inicial} a una tasa del {interes}% mensual durante {tiempo} meses se debera un total de {valor_final} pesos.")
+  ```
+
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.5*
+
+>### 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
+
+  ```python
+def contagiados (dias_transcurridos:float,contagiados_iniciales:float)->float:
+    return contagiados_iniciales*(2**dias_transcurridos)
+if __name__ == "__main__":
+  contagiados_iniciales=float(input("Escriba el numero de contagiados que habia en un principio: "))
+  dias_transcurridos=float(input("Escriba cuantos dias han transcurrido: "))
+  contagiados_finales=contagiados(dias_transcurridos,contagiados_iniciales)
+  print(f"El numero de contagiados tras {dias_transcurridos} dias de que hubieran {contagiados_iniciales} contagiados es de {contagiados_finales}")
+  ```
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.6*
