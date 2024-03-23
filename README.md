@@ -2,11 +2,13 @@
 Por: Juan Diego Cárdenas Olarte
 ### Grupo: 
 #### Infinity Bit Team (∞BT)
+
 [![logo.jpg](https://i.postimg.cc/pdcVKPsT/logo.jpg)](https://postimg.cc/JyJWLCVV)
 
 Este reto contiene las actividades propuestas para el reto#6.
 >### 1. Superficie y Volumen
 El primer punto del reto plantea que: Dada la siguiente imagen realizar:
+
   [![img1.png](https://i.postimg.cc/KjK42S6m/img1.png)](https://postimg.cc/tnj93fRc)
   
 * Una función matemática para calcular el volumen y el área superficial.
@@ -47,6 +49,7 @@ pi=math.pi
 
 >### 2. Area y Perimetro
 El segundo punto del reto plantea que: Dada la figura de la imagen realice:
+
   [![img2.png](https://i.postimg.cc/0yFPrHhW/img2.png)](https://postimg.cc/pmfg6kWz)
 
 * Una función matemática para calcular el área y el perimetro.
