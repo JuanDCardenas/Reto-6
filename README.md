@@ -6,7 +6,7 @@ Por: Juan Diego Cárdenas Olarte
 
 Este reto contiene las actividades propuestas para el reto#6.
 ### 1. Superficie y Volumen
-  El primer punto del reto plantea que: Dada la siguiente imagen realizar:
+El primer punto del reto plantea que: Dada la siguiente imagen realizar:
   [![img1.png](https://i.postimg.cc/KjK42S6m/img1.png)](https://postimg.cc/tnj93fRc)
   
 * Una función matemática para calcular el volumen y el área superficial.
@@ -42,3 +42,37 @@ Se importara la libreria math para posteriormente inicializar una variable con v
 import math
 pi=math.pi
 ```
+
+*Desarrollo y funcionamiento del progrma completo en los codigos adjuntos reto_6.1*
+
+### 2. Area y Perimetro
+El segundo punto del reto plantea que: Dada la figura de la imagen realice:
+  [![img2.png](https://i.postimg.cc/0yFPrHhW/img2.png)](https://postimg.cc/pmfg6kWz)
+
+* Una función matemática para calcular el área y el perimetro.
+  ```python
+  # Funcion matematica:  A= ab+2π(r**2)   P=2a+2b+2πr
+  ```
+* Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
+  ```python
+  def area (radio_circulos:float,lado_a:float,lado_b:float) -> float:
+    area_rectangulo:float=lado_a*lado_b
+    area_circulos:float=2*pi*(radio_circulos**2)
+    return area_circulos+area_rectangulo
+def perimetro (radio_circulos:float,lado_a:float,lado_b:float) -> float:
+    perimetro_rectangulo:float=2*lado_a+2*lado_b
+    perimetro_circulo:float=2*pi*radio_circulos
+    return perimetro_circulo+perimetro_rectangulo
+if __name__== "__main__":
+    radio_circulos=float(input("Escribe un radio para los circulos: "))
+    lado_a=float(input("Escribe un lado a para el rectangulo: "))
+    lado_b=float(input("Escribe un lado b para el rectangulo: "))
+    area_total=area(radio_circulos,lado_a,lado_b)
+    perimetro_total=perimetro(radio_circulos,lado_a,lado_b)
+    print(f"El area de la figura con las medidas dadas es de {area_total}")
+    print(f"El perimetro de la figura con las medidas dadas es de {perimetro_total}")
+  ```
+* Revise como utilizar el valor de pi usando import math y math.pi
+  ```python
+ sdfdfas
+  ```
