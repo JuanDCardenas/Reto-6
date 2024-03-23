@@ -20,6 +20,3 @@ if __name__ == "__main__":
     superficie_total=superficie(radio_esfera,radio_cono,altura_cono)
     print(f"La superficie de la figura segun las medidas dadas es de {superficie_total}")
     print(f"El volumen de la figura segun las medidas dadas es de volumen_total {volumen_total}")
-
-    print(volumen_total)
-    print(superficie_total)
