@@ -729,3 +729,27 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
     return n1**(1/3)
   ````
 
+Para finalizar con este punto se inicializan las variables necesarias y se imprimen los datos requeridos.
+  ```python
+if __name__ == "__main__":
+    a=float(input("Escribe un numero: "))
+    b=float(input("Escribe otro numero: "))
+    c=float(input("Escribe otro numero: "))
+    d=float(input("Escribe otro numero: "))
+    e=float(input("Escribe un ultimo numero: "))
+promedio_one=promedio(a,b,c,d,e)
+mediana_one=mediana(a,b,c,d,e)
+promedio_multiplicativo_one=promedio_multiplicativo(a,b,c,d,e)
+orden_ascendente_one=orden_ascendente(a,b,c,d,e)
+orden_descendente_one=orden_descendente(a,b,c,d,e)
+mayor_elevado_menor_one=mayor_elevado_menor(a,b,c,d,e)
+raiz_menor_one=raiz_menor(a,b,c,d,e)
+print(f"El promedio de {a}, {b},{c}, {d} y {e} es {promedio_one}")
+print(f"La mediana de {a}, {b},{c}, {d} y {e} es {mediana_one}")
+print(f"El promedio multiplicativo de {a}, {b},{c}, {d} y {e} es {promedio_multiplicativo_one}")
+print(f"Ordenados de forma ascendente {a}, {b},{c}, {d} y {e} serian {orden_ascendente_one}")
+print(f"Ordenados de forma descendente {a}, {b},{c}, {d} y {e} serian {orden_descendente_one}")
+print(f"El resultado de elevar el numero mayor al menor es {mayor_elevado_menor_one}")
+print(f"El resultado de sacarle la raiz cubica al numero menor es {raiz_menor_one}")
+  ````
+*Todo el codigo se encuentra unido, y listo para su comprobacion en los aduntos, punto_6.7*
