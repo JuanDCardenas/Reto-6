@@ -708,7 +708,7 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
     <organizar>
      return n1, n2, n3, n4, n5
   ````
-  * Ordenar los números de forma descendente
+* Ordenar los números de forma descendente
 
   ```python
   def orden_descendente (a:float,b:float,c:float,d:float,e:float)->float:
@@ -722,7 +722,7 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
     return n5**n1
   ````
   
-  * La raíz cúbica del menor número
+* La raíz cúbica del menor número
   
   ```python
   def raiz_menor (a:float,b:float,c:float,d:float,e:float)->float:
