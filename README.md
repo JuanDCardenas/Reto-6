@@ -1,4 +1,8 @@
 # Reto-6
+Por: Juan Diego Cárdenas Olarte
+### Grupo: 
+#### Infinity Bit Team (∞BT)
+[![logo.jpg](https://i.postimg.cc/pdcVKPsT/logo.jpg)](https://postimg.cc/JyJWLCVV)
 Este reto contiene las actividades propuestas para el reto#6.
 ### 1. Superficie y Volumen
   Dada la siguiente imagen realizar:
