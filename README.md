@@ -721,6 +721,7 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
     <organizar>
     return n5**n1
   ````
+  
   * La raíz cúbica del menor número
   
   ```python
@@ -730,6 +731,7 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
   ````
 
 Para finalizar con este punto se inicializan las variables necesarias y se imprimen los datos requeridos.
+
   ```python
 if __name__ == "__main__":
     a=float(input("Escribe un numero: "))
