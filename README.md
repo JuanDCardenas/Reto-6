@@ -692,6 +692,7 @@ Por cuestiones de optimizar el contenido del README, a esta linea de instruccion
   
   ```python
   def mediana (a:float,b:float,c:float,d:float,e:float)->float:
+      <organizar>
       return n3
   ```
 * El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
