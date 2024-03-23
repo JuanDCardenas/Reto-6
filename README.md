@@ -754,4 +754,4 @@ print(f"Ordenados de forma descendente {a}, {b},{c}, {d} y {e} serian {orden_des
 print(f"El resultado de elevar el numero mayor al menor es {mayor_elevado_menor_one}")
 print(f"El resultado de sacarle la raiz cubica al numero menor es {raiz_menor_one}")
   ````
-*Todo el codigo se encuentra unido, y listo para su comprobacion en los aduntos, punto_6.7*
+*Todo el codigo se encuentra unido, y listo para su comprobacion en los aduntos, reto_6.7*
