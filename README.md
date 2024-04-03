@@ -800,6 +800,6 @@ Y por ultimo se imprimen mediante la consola los resultados.
 *Todo el codigo se encuentra unido en reto_6.8*
 
 > ### Función *pip*
-En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip* en python.
+>En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip* en python.
 
-#### ¿Qué es?
+>#### ¿Qué es?
