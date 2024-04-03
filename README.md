@@ -801,5 +801,5 @@ Y por ultimo se imprimen mediante la consola los resultados.
 
 > ### Función *pip*
 >En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip* en python.
-
+>
 >#### ¿Qué es?
