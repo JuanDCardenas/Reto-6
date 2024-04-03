@@ -755,3 +755,51 @@ print(f"El resultado de elevar el numero mayor al menor es {mayor_elevado_menor_
 print(f"El resultado de sacarle la raiz cubica al numero menor es {raiz_menor_one}")
   ````
 *Todo el codigo se encuentra unido, y listo para su comprobacion en los aduntos, reto_6.7*
+
+>### Importar funciones.
+El punto 8 del reto pide que se importen las funciones del punto anterior para simplificar el codigo.
+Esto se hace mediante los comando *from* e *import* de la siguiente manera.
+```python
+from reto_6_7 import*  #reto_6_7 es el nombre del codigo del punto anterior
+```
+
+Posterior a esto como en cualquier función se declaran e inicializan las variables.
+
+```python
+if __name__ == "__main__":
+    a=float(input("Escribe un numero: "))
+    b=float(input("Escribe otro numero: "))
+    c=float(input("Escribe otro numero: "))
+    d=float(input("Escribe otro numero: "))
+    e=float(input("Escribe un ultimo numero: "))
+```
+
+Luego se llama a la funcion.
+
+```python
+    promedio_one=promedio(a,b,c,d,e)
+    mediana_one=mediana(a,b,c,d,e)
+    promedio_multiplicativo_one=promedio_multiplicativo(a,b,c,d,e)
+    orden_ascendente_one=orden_ascendente(a,b,c,d,e)
+    orden_descendente_one=orden_descendente(a,b,c,d,e)
+    mayor_elevado_menor_one=mayor_elevado_menor(a,b,c,d,e)
+    raiz_menor_one=raiz_menor(a,b,c,d,e)
+```
+Y por ultimo se imprimen mediante la consola los resultados.
+
+```python
+    print(f"El promedio de {a}, {b},{c}, {d} y {e} es {promedio_one}")
+    print(f"La mediana de {a}, {b},{c}, {d} y {e} es {mediana_one}")
+    print(f"El promedio multiplicativo de {a}, {b},{c}, {d} y {e} es {promedio_multiplicativo_one}")
+    print(f"Ordenados de forma ascendente {a}, {b},{c}, {d} y {e} serian {orden_ascendente_one}")
+    print(f"Ordenados de forma descendente {a}, {b},{c}, {d} y {e} serian {orden_descendente_one}")
+    print(f"El resultado de elevar el numero mayor al menor es {mayor_elevado_menor_one}")
+    print(f"El resultado de sacarle la raiz cubica al numero menor es {raiz_menor_one}")
+```
+
+*Todo el codigo se encuentra unido en reto_6.8*
+
+> ### Función *pip*
+En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip* en python.
+
+#### ¿Qué es?
