@@ -801,8 +801,8 @@ Y por ultimo se imprimen mediante la consola los resultados.
 
 > ### Función *pip*
 >En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip* en python.
->
->#### ¿Qué es?
-> *pip* es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python.
->#### ¿Cómo funciona?
-> Desde la version 3.4 pip viene instalado con python, y funciona mediante el Python Package Index/Índice de paquetes de python (PyPI), que es un lugar donde la comunidad puede  subir sus codigos para ser usados por otros usuarios.
+
+#### ¿Qué es?
+ *pip* es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python.
+#### ¿Cómo funciona?
+Desde la version 3.4 pip viene instalado con python, y funciona mediante el Python Package Index/Índice de paquetes de python (PyPI), que es un lugar donde la comunidad puede  subir sus codigos para ser usados por otros usuarios.
