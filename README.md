@@ -762,17 +762,6 @@ Esto se hace mediante los comando *from* e *import* de la siguiente manera.
 ```python
 from reto_6_7 import*  #reto_6_7 es el nombre del codigo del punto anterior
 ```
-
-
-| **_Nombre_** | **_Uso_**                 |
-|--------------|---------------------------|
-| **NumPy**    | Computación científica    |
-| **Pandas**   | Analisis de datos         |
-| **SciPy**    | Computación científica    |
-| **Keras**    | Aprendizaje automático/IA |
-| **Django**   | Desarrollo web            |
-| **Requests** | HTTP para humanos         |
-
 Posterior a esto como en cualquier función se declaran e inicializan las variables.
 
 ```python
@@ -816,3 +805,12 @@ En este punto se pide investigar ¿Qué es? y ¿Cómo funciona? la funcion *pip*
  *pip* es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python.
 #### ¿Cómo funciona?
 Desde la version 3.4 pip viene instalado con python, y funciona mediante el Python Package Index/Índice de paquetes de python (PyPI), que es un lugar donde la comunidad puede  subir sus codigos para ser usados por otros usuarios.
+
+| **_Nombre_** | **_Uso_**                 |
+|--------------|---------------------------|
+| **NumPy**    | Computación científica    |
+| **Pandas**   | Analisis de datos         |
+| **SciPy**    | Computación científica    |
+| **Keras**    | Aprendizaje automático/IA |
+| **Django**   | Desarrollo web            |
+| **Requests** | HTTP para humanos         |
