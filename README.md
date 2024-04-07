@@ -763,6 +763,16 @@ Esto se hace mediante los comando *from* e *import* de la siguiente manera.
 from reto_6_7 import*  #reto_6_7 es el nombre del codigo del punto anterior
 ```
 
+
+| **_Nombre_** | **_Uso_**                 |
+|--------------|---------------------------|
+| **NumPy**    | Computación científica    |
+| **Pandas**   | Analisis de datos         |
+| **SciPy**    | Computación científica    |
+| **Keras**    | Aprendizaje automático/IA |
+| **Django**   | Desarrollo web            |
+| **Requests** | HTTP para humanos         |
+
 Posterior a esto como en cualquier función se declaran e inicializan las variables.
 
 ```python
