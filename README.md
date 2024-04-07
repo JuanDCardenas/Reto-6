@@ -825,3 +825,4 @@ pip install [nombre del paqute]
 > ### Referencias.
 https://www.buscaminegocio.com/cursos-de-python/pip-en-python.html
 https://www.mygreatlearning.com/blog/open-source-python-libraries/
+https://www.mygreatlearning.com/blog/open-source-python-libraries/
